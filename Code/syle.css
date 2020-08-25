@@ -1,0 +1,311 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background: #34495e;
+}
+
+h1{
+	font-weight: 500;
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.box{
+	width: 300px;
+	padding: 40px;
+	margin-top: 100px;
+	margin-bottom: 80px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: #191919;
+	text-align: center;
+	border-radius: 20px;
+}
+.info{
+	padding-top: 40px;
+	padding-right: 100px;
+	padding-left: 100px;
+	padding-bottom: 40px;
+	margin-top: 100px;
+	margin-bottom: 80px;
+	margin-right: 100px;
+	margin-left:100px;
+	background: #191919;
+	text-align: center;
+	border-radius: 20px;
+	position: relative;
+}
+
+.image{
+	padding: 40px;
+	margin-top: 50px;
+	margin-bottom: 80px;
+	margin-right: 100px;
+	margin-left: 100px;
+	background: #191919;
+	text-align: center;
+	border-radius: 20px;
+	position: relative;
+}
+
+.image h1, h2, h3, #totalprice{
+	font-weight: 100;
+	color: white;
+	font-family: sans-serif;
+
+}
+
+.info input[type = "text"],.info input[type = "email"]{
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border:  2px solid #3498db;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: black;
+	border-radius: 24px;
+	transition: 0.25s;
+}
+
+.info button[type = "submit"]{
+	border:0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border:  2px solid #2ecc71;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+}
+
+.info button[type = "submit"]:hover{
+	background: #2ecc71;
+	width: 250px;
+}
+
+#CountrySelect{
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border:  2px solid #3498db;
+	padding: 14px 10px;
+	width: 100px;
+	
+	border-radius: 24px;
+}
+
+#buttonclear{
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border:  2px solid #3498db;
+	padding: 14px 10px;
+	width: 80px;
+	border-radius: 24px;
+}
+
+#buttonclear:hover{
+	background: #ff6961;
+	border:  2px solid #ff6961;
+}
+
+#ExpireMonth, #ExpireYear{
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border:  2px solid #3498db;
+	padding: 14px 10px;
+	width: 80px;
+	
+	border-radius: 24px;
+	
+}
+
+.info input[type = "text"]:focus,.info input[type = "email"]:focus{
+	width:280px;
+	border-color: #2ecc71;
+	}
+
+.info h3{
+	color: white;
+	font-weight: 500;
+}
+
+.box h1{
+	color: white;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+.box button[type = "submit"]{
+	border:0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border:  2px solid #2ecc71;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+}
+
+.box input[type = "file"]{
+	border:0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border:  2px solid #3498db;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	border-radius: 24px;
+	color: white;
+}
+
+.box button[type = "submit"]:hover{
+	background: #2ecc71;
+	width: 250px;
+}
+
+
+
+.box input[type = "text"],.box input[type = "password"]{
+	border:0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border:  2px solid #3498db;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+}
+
+.box input[type = "text"]:focus,.box input[type = "password"]:focus{
+	width:280px;
+	border-color: #2ecc71;
+	}
+
+.box label{
+	color: white;
+}
+
+.box input[type = "submit"]{
+	border:0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border:  2px solid #2ecc71;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+}
+.box input[type = "submit"]:hover{
+	background: #2ecc71;
+	width: 250px;
+}
+
+table{
+	border-spacing: 1;
+	border-collapse: collapse;
+	background: white;
+	border-radius: 10px;
+	overflow: hidden;
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+
+table * {
+	position: relative;
+}
+
+table td, table th{
+	padding-left: 8px;
+}
+
+table thead tr{
+	color: white;
+	height: 60px;
+	background: #36304a;
+}
+
+table tbody tr{
+	height:50px;
+}
+
+table tbody tr: last-child {
+	border: 0;
+}
+
+table td, table th {
+	text-align: left;
+}
+
+table td.l, table th.l{
+	text-align: right;
+}
+
+table td.c, table th.c{
+	text-align: center;
+}
+
+table td.r, table th.r{
+	text-align: center;
+}
+
+tbody tr:nth-child(even){
+	background-color: #f5f5f5;
+}
+
+tbody button[type="submit"]{
+	border:0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border:  2px solid #2ecc71;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: black;
+	border-radius: 24px;
+	transition: 0.25s;
+}
+
+tbody button[type="submit"]:hover{
+	width: 250px;
+	background: #2ecc71;
+
+}
+#MyVideo {
+	position: absolute;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
