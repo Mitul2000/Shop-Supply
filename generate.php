@@ -1,8 +1,8 @@
 <?php
-$dbhost="localhost";
-$dbuser="root";
-$dbpass="100700131";
-$dbname="finalproject";
+$dbhost="us-cdbr-east-02.cleardb.com";
+$dbuser="b2ebc386f8efa9";
+$dbpass="c27b41ca";
+$dbname="heroku_b4cc3648e430269";
 
 $connection= mysqli_connect($dbhost,$dbuser,$dbpass,$dbname);
 if (mysqli_connect_errno())

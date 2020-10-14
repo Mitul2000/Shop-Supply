@@ -28,7 +28,7 @@ This page will allow the users to buy products placed in the listing after it is
 	<?php
 
 		
-		$connection = mysqli_connect("localhost","root","100700131","finalproject");
+		$connection = mysqli_connect("us-cdbr-east-02.cleardb.com","b2ebc386f8efa9","c27b41ca","heroku_b4cc3648e430269");
 		if (!$connection) 
 		{
 			die("Connection failed: " . mysqli_connect_error());
