@@ -1,8 +1,8 @@
 # Shop-Supply
 
-Demo: 
+Demo: https://youtu.be/sOG6JJSSYwQ
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/sOG6JJSSYwQ/0.jpg)](https://www.youtube.com/watch?v=sOG6JJSSYwQ)
 
 Check it out: https://thawing-basin-78625.herokuapp.com/?fbclid=IwAR26mpsgYfllH4cRGounFjucrMaIdiT4dcalv6ewXteS61nhr1y5LpyFsfg
 
